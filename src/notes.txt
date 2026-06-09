@@ -1,0 +1,24 @@
+React is a Javascript library, used for rendering User Interfaces(UI). UI is built from small units like buttons, text, Images ETC. 
+React lets you combine them into components that are reusable, nestable. 
+we can declare many components in one file, but large files are hard to navigate. JSX Lets you write HTML-like markup inside a JS file, keeping rendering logic and content in the same place.
+we can use Filter() and map() methods of JS to display multiple components from a collection of data to transform your array into an array of components.
+
+3 Different Ways to Style React components:-
+
+i. External - Which is Great for global styles, and small Projects.
+ii. Modules - Preferred For individual components that have their own unique styles.
+iii. Inline - This tends to be good with any small components with minimal styling.
+
+Props = read-only properties that are shared between components. A parent component can send data to a child componenent. 
+<Componenent key=value />
+
+propTypes = Mechanism that ensures that the passed value is of the correct datatype. 
+age: propTypes.number
+
+default Props = default values for props in case they are not passed from the parent component.
+name: "Guest"
+
+props = read only properties that are shared between components. A parent components can send data to a child component.
+<component key=value />
+
+Conditional Rendering - Practice of displaying different UI elements or components based on specific conditions.{In simple words it allows you to control what gets rendered in your application based on certain conditions, like showing, hiding or changing components}
