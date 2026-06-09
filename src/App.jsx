@@ -2,7 +2,13 @@
 
 // import Button from "./Button1.jsx"
 
-import ProfilePicture from "./profilePic.jsx";
+// import ProfilePicture from "./profilePic.jsx";
+
+// import Mycomponent from "./MyCOmponent.jsx";
+
+// import Counter from "./Counter.jsx";
+
+import Mycomponent_Onchange from "./myComponent_OnChange.jsx";
 
 function App() {
 
@@ -26,7 +32,7 @@ function App() {
 
    return(
    <>
-   <ProfilePicture/>
+   <Mycomponent_Onchange/>
    </>
    );
 }
