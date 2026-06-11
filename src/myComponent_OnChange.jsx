@@ -35,9 +35,7 @@ function Mycomponent_Onchange(){
     function handleShippingChange(event){
         setShipping(event.target.value)
     }
-
-
-
+    
     return(
         <div>
             <input value={name} onChange={Handlenamechange}></input>

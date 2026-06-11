@@ -1,3 +1,5 @@
+import './index.css';
+
 // import List from "./List.jsx";
 
 // import Button from "./Button1.jsx"
@@ -8,7 +10,9 @@
 
 // import Counter from "./Counter.jsx";
 
-import Mycomponent_Onchange from "./myComponent_OnChange.jsx";
+// import Mycomponent_Onchange from "./myComponent_OnChange.jsx";
+
+import ColorPicker from "./Color-picker.jsx";
 
 function App() {
 
@@ -32,7 +36,7 @@ function App() {
 
    return(
    <>
-   <Mycomponent_Onchange/>
+   <ColorPicker/>
    </>
    );
 }
