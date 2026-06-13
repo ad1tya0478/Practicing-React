@@ -12,7 +12,15 @@ import './index.css';
 
 // import Mycomponent_Onchange from "./myComponent_OnChange.jsx";
 
-import ColorPicker from "./Color-picker.jsx";
+// import ColorPicker from "./Color-picker.jsx";
+
+// import Mycomponent_updater from './My_component_updater.jsx';
+
+// import MyComponent_state_objects from './myComp_state_objects.jsx';
+
+// import State_array from './myCom_state_array.jsx';
+
+import StateArrayOfObjects from './myCom_arrayStateObjects.jsx';
 
 function App() {
 
@@ -36,7 +44,7 @@ function App() {
 
    return(
    <>
-   <ColorPicker/>
+   <StateArrayOfObjects/>
    </>
    );
 }
