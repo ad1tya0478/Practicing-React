@@ -20,7 +20,19 @@ import './index.css';
 
 // import State_array from './myCom_state_array.jsx';
 
-import StateArrayOfObjects from './myCom_arrayStateObjects.jsx';
+// import StateArrayOfObjects from './myCom_arrayStateObjects.jsx';
+
+// import TodoList from './todo_list.jsx';
+
+// import MyCom_UseEffect from './useEffect.jsx';
+
+// import DigitalClock from './digital_clock.jsx';
+
+// import Usecontext from './usecontext.jsx';
+
+// import UseRef from './UseRef.jsx';
+
+import StopWatch from './Stopwatch.jsx';
 
 function App() {
 
@@ -44,7 +56,7 @@ function App() {
 
    return(
    <>
-   <StateArrayOfObjects/>
+   <StopWatch/>
    </>
    );
 }
